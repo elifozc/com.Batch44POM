@@ -34,7 +34,7 @@ public class C02_PageIlkClass {
     }
 
 
-    @Test
+    @Test(groups = "miniRegression")
     public void test02(){
         //amazona gidelim java için arama yapalım
         Driver.getDriver().get("https://www.amazon.com");

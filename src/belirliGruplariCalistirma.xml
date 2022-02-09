@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="groups calistirma">
+    <test name="mini regression">
+        <groups>
+            <run>
+                <include name="miiniRegression"></include>
+            </run>
+        </groups>
+        <packages>
+            <package name="tests.day16"></package>
+            <package name="tests.day17"></package>
+            <package name="tests.day18"></package>
+        </packages>
+
+
+    </test>
+</suite>

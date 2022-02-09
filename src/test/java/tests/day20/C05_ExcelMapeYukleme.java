@@ -20,9 +20,9 @@ public class C05_ExcelMapeYukleme {
         String path="src/test/java/resources/ulkeler.xlsx";
         String sayfaAdi="Sayfa1";
 
-        System.out.println(ReusableMethods.mapOlustur(path,sayfaAdi));
+        System.out.println(ReusableMethodsExcel.mapOlustur(path,sayfaAdi));
 
-        Map<String,String> ulkelerMap= ReusableMethods.mapOlustur(path,sayfaAdi);
+        Map<String,String> ulkelerMap= ReusableMethodsExcel.mapOlustur(path,sayfaAdi);
 
         //olusturdugumuz map i kullanarak Turkey in bilgilerini yazdırın
         System.out.println(ulkelerMap.get("Turkey"));
